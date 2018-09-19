@@ -7,9 +7,9 @@ This project includes code for a Deep Convolutional Generative Adversarial Netwo
 
 [//]: # (Image References)
 
-[image1]: https://raw.githubusercontent.com/cpow-89/Cross-Entropy-metaheuristic-method-for-Reinforcement-Learning-Pytorch-/master/images/MountainCarContinuous-v0.gif "Trained Gan Tensorboard Output"
+[image1]: https://raw.githubusercontent.com/cpow-89/Deep-Convolutional-Generative-Adversarial-Network-for-generating-fake-Atari-game-images/master/asserts/Bildschirmfoto%202018-09-12%2023_26_33.png "Trained Gan Tensorboard Output"
 
-#### MountainCarContinuous-v0
+#### Example Output for Pong and Breakout
 
 ![Trained Gan Tensorboard Output][image1]
 
@@ -21,16 +21,16 @@ This project includes code for a Deep Convolutional Generative Adversarial Netwo
 > source activate env_name
 
 2. Install Dependencies
-numpy==1.14.2
-gym==0.10.4
-opencv-python==3.4.0.12
-scipy==1.0.1
-torch==0.4
-torchvision==0.2.0
-tensorboardX==1
-tensorflow==1.7.0
-tensorboard==1.7.0
-matplotlib==2.2.2
+numpy==1.14.2 <br>
+gym==0.10.4 <br>
+opencv-python==3.4.0.12 <br>
+scipy==1.0.1 <br>
+torch==0.4 <br>
+torchvision==0.2.0 <br>
+tensorboardX==1 <br>
+tensorflow==1.7.0 <br>
+tensorboard==1.7.0 <br>
+matplotlib==2.2.2 <br>
 
 ### Instructions
 
@@ -52,5 +52,5 @@ optional arguments:
 Example: python main.py -c "Atari_Gan.json" 
 
 
-You can view the results via tensorboardX:
+You can view the results via tensorboardX: <br>
 tensorboard --logdir=path/to/log-directory
